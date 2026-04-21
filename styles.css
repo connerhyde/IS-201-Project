@@ -1,0 +1,78 @@
+:root {
+    --byu-navy: #002e5d;
+    --accent-gold: #ceb888;
+}
+
+body { 
+    background-color: #f8f9fa; 
+    font-family: sans-serif; 
+}
+
+.passion-header {
+    background-color: var(--byu-navy);
+    color: white;
+    padding: 60px 0;
+    border-bottom: 5px solid var(--accent-gold);
+    margin-bottom: 40px;
+}
+
+.content-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 50px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 30px 0;
+    border-radius: 10px;
+    border: 3px solid #eee;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-home {
+    background-color: var(--accent-gold);
+    color: var(--byu-navy);
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn-home:hover {
+    background-color: var(--byu-navy);
+    color: white;
+}
+
+.btn-game {
+    background-color: var(--byu-navy);
+    color: var(--accent-gold);
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.btn-game:hover {
+    background-color: var(--accent-gold);
+    color: var(--byu-navy);
+}
